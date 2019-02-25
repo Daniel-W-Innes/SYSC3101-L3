@@ -1,0 +1,8 @@
+#lang racket
+
+(build-list 5 (lambda (x) (+ x 1)))
+
+(build-list 5 (lambda (x) (/ 1 (+ x 1))))
+
+(build-list 5 (lambda (x) (* 2 x)))
+
